@@ -6,20 +6,5 @@ import {QuienesSomos} from "./quienes-somos";
 
 export const App = () => {
 
-    return <Router>
-        <NavigationBar/>
-        <Switch>
-            <Route path="/Inicio">
-                <Inicio />
-            </Route>
-            <Router path="/Quienes Somos">
-                <QuienesSomos />
-            </Router>
-            <Router path="/Experiencias">
-                <Experiencias />
-            </Router>
-
-        </Switch>
-
-        </Router>
+    return <h1>Hola</h1>
 }
