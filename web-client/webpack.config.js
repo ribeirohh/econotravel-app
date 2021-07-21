@@ -36,6 +36,16 @@ module.exports = {
                 }
             },
             {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+
+
+                    },
+                ],
+            },
+            {
                 test: /\.scss$/,
                 use: [
                     "style-loader",
@@ -43,6 +53,7 @@ module.exports = {
                     "sass-loader"
                 ]
             }
+
         ]
     },
     plugins: [
