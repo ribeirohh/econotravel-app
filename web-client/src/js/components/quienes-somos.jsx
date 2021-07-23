@@ -2,6 +2,7 @@ import * as React from "react";
 
  export const QuienesSomos = () => (
 
-     <h1>Aqui pondremos quienes somos</h1>
+     <h1>Misión</h1>
+
 
  )
