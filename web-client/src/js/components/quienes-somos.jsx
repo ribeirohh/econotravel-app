@@ -1,6 +1,7 @@
 import * as React from "react";
 
  export const QuienesSomos = () => (
-     <p>Aqui pondremos quienes somos</p>
+
+     <h1>Aqui pondremos quienes somos</h1>
 
  )

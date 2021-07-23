@@ -11,7 +11,17 @@ body {
 
 a {
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
+
 }
 
+}
+.logo {
+  height: 90px;
+  width: 90px;
+}
+
+.switchLinks:hover {
+  background-color: white;
+  color: #363232;
 }

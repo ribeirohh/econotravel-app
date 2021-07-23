@@ -1,5 +1,7 @@
 import * as React from "react";
 
-export const Inicio = () => <section>
+export const Inicio = () => (
+
     <p>this is inico</p>
-</section>
+    )
+
