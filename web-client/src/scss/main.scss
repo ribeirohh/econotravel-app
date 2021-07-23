@@ -25,3 +25,12 @@ a {
   background-color: white;
   color: #363232;
 }
+
+h2,p,h3,h4{
+  height: 200px;
+  width: 80px;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  margin-left: 50px;
+
+}
