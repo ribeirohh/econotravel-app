@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {QuienesSomos} from "./quienes-somos";
 import { Experiencias} from "./experiencias";
 import {Inicio} from "./inicio";
+import Search from './search';
 
 export const App = () => {
 
