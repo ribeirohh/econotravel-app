@@ -66,6 +66,7 @@ export const App = () => {
                 <Experiencias exp={expList} />
             </Route>
 
+
         </Switch>
     </Router>
 }
