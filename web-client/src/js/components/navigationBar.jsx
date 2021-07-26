@@ -12,7 +12,9 @@ export const NavigationBar = () => (
         <a><Link to={"/quienes-somos"}>Quienes somos</Link></a>
         <a><Link to={"/experiencias"}>Experiencias</Link></a>
 
-            <div className="app"><input type="text" placeholder="Search.."></input></div>
+            <div className="app">
+                <input type="text" placeholder="Search..">Search</input>
+            </div>
 
         </div>
     </nav>
