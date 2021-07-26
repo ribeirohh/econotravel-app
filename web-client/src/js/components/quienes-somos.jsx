@@ -2,7 +2,7 @@ import * as React from "react";
 
 export const QuienesSomos = () => <section>
 
-<<<<<<< HEAD
+
     <h2> Misión </h2>
     <p>Nuestra empresa se fundó a raíz de un viaje que nuestra fundadora, Marina Herrán, realizó en bicicleta por Cataluña en el verano de 2001. Durante ese periodo,
         descubrió que las opciones turísticas que ofrecían ciudades como Barcelona, Girona y Reus dependían de transportes contaminantes y actividades poco respetuosas con la naturaleza y el entorno, algo que causaba un progresivo
@@ -16,8 +16,6 @@ export const QuienesSomos = () => <section>
     <h4>Dirección: Carrer dels Viatgers, 28, 08000 Barcelona</h4>
 
 </section>
-=======
-     <h1>Misión</h1>
 
->>>>>>> 8846026e72c2f1908e1544d5919f5ab5f2c414f5
+
 
