@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {QuienesSomos} from "./quienes-somos";
 import { Experiencias} from "./experiencias";
 import {Inicio} from "./inicio";
-import Search from './search';
+
 
 export const App = () => {
 
@@ -17,7 +17,7 @@ export const App = () => {
             accesibilidad: "Todas las edades. bicicletas accesibles para personas con movilidad reducida",
             id: 1 ,
         },
-           //2
+        //2
         {
             title:"Descubre la costa en barco de vela",
             description:"hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
@@ -25,7 +25,7 @@ export const App = () => {
             duracion:"4 horas",
             accesibilidad:"Actividad disponible para todas las edades. Pasarela para silla de ruedas disponible bajo reserva"
         },
-           //3
+        //3
         {
             title:"Descubre la Barcelona Modernista de noche",
             description:"Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que se esconden en el barcelonés distrito del Eixample",
@@ -33,7 +33,7 @@ export const App = () => {
             duracion:"4 horas",
             accesibilidad:"Actividad disponible para todas las edades. Accesibilidad garantizada para sillas de ruedas."
         },
-         //4
+        //4
         {
             title:"Del huerto a la mesa",
             description:"Podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig",
@@ -50,6 +50,8 @@ export const App = () => {
             accesibilidad:"Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está garantizado."
         },
     ]
+
+
 
     return <Router>
         <NavigationBar />

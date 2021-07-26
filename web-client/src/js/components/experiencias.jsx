@@ -1,5 +1,6 @@
 import * as React from "react";
 
+
  export const Experiencias = (props) => (
      <section className="experienceSection">
          { props.exp.map( exp =>
