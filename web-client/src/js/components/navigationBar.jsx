@@ -8,14 +8,14 @@ export const NavigationBar = () => (
              <img className={"logo"} src={logo} />
          </div>
         <div className={"switchLinks"}>
-        <a><Link to={"/inicio"}>Inicio</Link></a>
-        <a><Link to={"/quienes-somos"}>Quienes somos</Link></a>
-        <a><Link to={"/experiencias"}>Experiencias</Link></a>
+        <Link to={"/inicio"}>Inicio</Link>
+        <Link to={"/quienes-somos"}>Quienes somos</Link>
+        <Link to={"/experiencias"}>Experiencias</Link>
 
-            <div className="app">
-                <input type="text" placeholder="Search..">Search</input>
-            </div>
 
+                <div className="input">
+                    <input type="text" Search placeholder="Search.." />
+                </div>
         </div>
     </nav>
 )
