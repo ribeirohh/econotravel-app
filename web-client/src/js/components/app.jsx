@@ -5,8 +5,10 @@ import {QuienesSomos} from "./quienes-somos";
 import {Experiencias} from "./experiencias";
 import {Inicio} from "./inicio"
 
-export const App = () => {
+i
 
+
+export const App = () => {
     const expList = [
         {   //1
             title:  "Paseo en bicicleta por el Montseny",
@@ -16,15 +18,17 @@ export const App = () => {
             accesibilidad: "Todas las edades. bicicletas accesibles para personas con movilidad reducida",
             id: 1 ,
         },
-           //2
+        //2
         {
+            id: 2,
+            image: img1,
             title:"Descubre la costa en barco de vela",
             description:"hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
             precio:280,
             duracion:"4 horas",
             accesibilidad:"Actividad disponible para todas las edades. Pasarela para silla de ruedas disponible bajo reserva"
         },
-           //3
+        //3
         {
             title:"Descubre la Barcelona Modernista de noche",
             description:"Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que se esconden en el barcelonés distrito del Eixample",
@@ -32,7 +36,7 @@ export const App = () => {
             duracion:"4 horas",
             accesibilidad:"Actividad disponible para todas las edades. Accesibilidad garantizada para sillas de ruedas."
         },
-         //4
+        //4
         {
             title:"Del huerto a la mesa",
             description:"Podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig",
@@ -49,23 +53,18 @@ export const App = () => {
             accesibilidad:"Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está garantizado."
         },
     ]
-
     return <Router>
         <NavigationBar />
         <Switch>
             <Route path={"/inicio"}>
                 <Inicio />
             </Route>
-
             <Route path={"/quienes-somos"}>
                 <QuienesSomos />
             </Route>
-
             <Route path={"/experiencias"}>
                 <Experiencias exp={expList} />
             </Route>
-
-
         </Switch>
     </Router>
 }
