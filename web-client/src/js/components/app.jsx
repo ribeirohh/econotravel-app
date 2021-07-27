@@ -2,12 +2,11 @@ import * as React from "react";
 import {NavigationBar} from "./navigationBar";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {QuienesSomos} from "./quienes-somos";
-import { Experiencias} from "./experiencias";
-import {Inicio} from "./inicio";
+import {Experiencias} from "./experiencias";
+import {Inicio} from "./Inicio";
 
 
 export const App = () => {
-
     const expList = [
         {   //1
             title:  "Paseo en bicicleta por el Montseny",
@@ -19,6 +18,8 @@ export const App = () => {
         },
         //2
         {
+            id: 2,
+            image: img1,
             title:"Descubre la costa en barco de vela",
             description:"hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
             precio:280,
@@ -50,24 +51,18 @@ export const App = () => {
             accesibilidad:"Actividad disponible para todas las edades. El acceso al museo y al restaurante en silla de ruedas está garantizado."
         },
     ]
-
-
-
     return <Router>
         <NavigationBar />
         <Switch>
             <Route path={"/inicio"}>
                 <Inicio />
             </Route>
-
             <Route path={"/quienes-somos"}>
                 <QuienesSomos />
             </Route>
-
             <Route path={"/experiencias"}>
-                <Experiencias />
+                <Experiencias exp={expList} />
             </Route>
-
         </Switch>
     </Router>
 }
